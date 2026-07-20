@@ -1,0 +1,21 @@
+# Berbera AI Pipeline — Python Dependencies
+# Install with: pip install -r requirements.txt
+# Python 3.10+ required
+
+# AI / Computer Vision
+ultralytics>=8.0.0          # YOLOv8 (auto-downloads model weights)
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+torch>=2.0.0                # CPU version installs automatically; use CUDA wheels for GPU
+
+# Tile / GIS utilities
+mercantile>=1.2.1
+requests>=2.31.0
+
+# Supabase
+supabase>=2.0.0
+python-dotenv>=1.0.0
+
+# Progress
+tqdm>=4.66.0

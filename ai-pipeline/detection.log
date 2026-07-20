@@ -1,0 +1,202 @@
+2026-07-10 17:24:56,825 [INFO] ============================================================
+2026-07-10 17:24:56,825 [INFO] Berbera Building Detection Pipeline
+2026-07-10 17:24:56,825 [INFO] ============================================================
+2026-07-10 17:25:02,714 [INFO] generated new fontManager
+2026-07-10 17:25:03,399 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-10 17:31:24,126 [INFO] Zoom 16: 1786 tiles to process
+2026-07-10 17:31:24,126 [INFO] Processing 1786 tiles at zoom 16…
+2026-07-10 17:40:28,014 [INFO] Raw detections: 573
+2026-07-10 17:40:28,259 [INFO] After deduplication: 573 buildings
+2026-07-10 17:40:31,471 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-10 17:40:31,497 [INFO] Starting numbering from: 1
+2026-07-10 17:40:31,500 [INFO] Inserting 573 buildings into Supabase…
+2026-07-10 17:40:32,711 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22number%22%2C%22latitude%22 "HTTP/2 201 Created"
+2026-07-10 17:40:33,158 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22number%22%2C%22latitude%22 "HTTP/2 201 Created"
+2026-07-12 20:25:38,551 [INFO] ============================================================
+2026-07-12 20:25:38,552 [INFO] Berbera Building Detection Pipeline
+2026-07-12 20:25:38,552 [INFO] ============================================================
+2026-07-12 20:25:45,487 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-12 20:25:45,760 [INFO] Zoom 16: 1786 tiles to process
+2026-07-12 20:25:45,770 [INFO] Processing 1786 tiles at zoom 16…
+2026-07-13 09:32:36,136 [INFO] Raw detections: 573
+2026-07-13 09:32:36,388 [INFO] After deduplication: 573 buildings
+2026-07-13 09:32:39,629 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-13 09:32:39,634 [INFO] Starting numbering from: 574
+2026-07-13 09:32:39,635 [INFO] Inserting 573 buildings into Supabase…
+2026-07-13 09:32:40,810 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22 "HTTP/2 201 Created"
+2026-07-13 09:32:41,249 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22 "HTTP/2 201 Created"
+2026-07-15 09:23:20,281 [INFO] ============================================================
+2026-07-15 09:23:20,283 [INFO] Berbera Building Detection Pipeline
+2026-07-15 09:23:20,284 [INFO] ============================================================
+2026-07-15 09:23:28,122 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-15 09:23:28,345 [INFO] Zoom 16: 1786 tiles to process
+2026-07-15 09:23:28,347 [INFO] Processing 1786 tiles at zoom 16…
+2026-07-15 09:24:52,500 [INFO] Raw detections: 573
+2026-07-15 09:24:52,741 [INFO] After deduplication: 573 buildings
+2026-07-15 09:24:56,070 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-15 09:24:56,079 [INFO] Starting numbering from: 1147
+2026-07-15 09:24:56,082 [INFO] Inserting 573 buildings into Supabase…
+2026-07-15 09:24:57,525 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22number%22%2C%22latitude%22 "HTTP/2 201 Created"
+2026-07-15 09:24:57,940 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22number%22%2C%22latitude%22 "HTTP/2 201 Created"
+2026-07-19 13:02:32,207 [INFO] ============================================================
+2026-07-19 13:02:32,208 [INFO] Somaliland Building Detection Pipeline  v2.0
+2026-07-19 13:02:32,208 [INFO] ============================================================
+2026-07-19 13:02:32,208 [INFO] Cities to process: ['hargeisa']
+2026-07-19 13:02:32,208 [INFO] Zoom level: 15
+2026-07-19 13:02:38,084 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-19 13:02:38,268 [INFO]    Bounding box: lng(43.95–44.17) lat(9.47–9.67)
+2026-07-19 13:02:38,269 [INFO] Zoom 15: 420 tiles to process
+2026-07-19 13:04:08,596 [INFO]   Raw detections: 2628
+2026-07-19 13:04:13,700 [INFO]   After dedup:    2628 buildings
+2026-07-19 13:04:16,825 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-19 13:04:16,834 [INFO]   Starting number: 230701
+2026-07-19 13:04:18,109 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22longitude%22%2C%22city%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:04:19,185 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22longitude%22%2C%22city%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:04:19,749 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22longitude%22%2C%22city%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:04:20,296 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22longitude%22%2C%22city%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:04:20,917 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22longitude%22%2C%22city%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:04:22,333 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22longitude%22%2C%22city%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:04:22,450 [INFO] ============================================================
+2026-07-19 13:04:22,451 [INFO] ============================================================
+2026-07-19 13:04:34,006 [INFO] ============================================================
+2026-07-19 13:04:34,006 [INFO] Somaliland Building Detection Pipeline  v2.0
+2026-07-19 13:04:34,007 [INFO] ============================================================
+2026-07-19 13:04:34,007 [INFO] Cities to process: ['burao']
+2026-07-19 13:04:34,007 [INFO] Zoom level: 15
+2026-07-19 13:04:37,544 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-19 13:04:37,719 [INFO] ------------------------------------------------------------
+2026-07-19 13:04:37,719 [INFO] [City] Processing: BURAO
+2026-07-19 13:04:37,719 [INFO]    Bounding box: lng(45.38-45.7) lat(9.37-9.69)
+2026-07-19 13:04:37,720 [INFO] Zoom 15: 930 tiles to process
+2026-07-19 13:09:30,416 [INFO]   Raw detections: 10925
+2026-07-19 13:11:00,609 [INFO]   After dedup:    10924 buildings
+2026-07-19 13:11:03,056 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-19 13:11:03,063 [INFO]   Starting number: 233329
+2026-07-19 13:11:04,235 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:05,077 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:05,999 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:06,848 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:07,697 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:08,522 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:09,376 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:10,578 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:11,418 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:12,245 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:13,081 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:13,947 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:14,760 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:16,025 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:16,854 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:17,675 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:18,520 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:19,375 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:20,194 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:20,999 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:21,833 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:22,334 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:11:22,347 [INFO]   [OK] Inserted 10924 buildings (#233329-#244252)
+2026-07-19 13:11:22,355 [INFO] ============================================================
+2026-07-19 13:11:22,355 [INFO] [DONE] All done! Total buildings inserted: 10924
+2026-07-19 13:11:22,355 [INFO] ============================================================
+2026-07-19 13:11:32,518 [INFO] ============================================================
+2026-07-19 13:11:32,518 [INFO] Somaliland Building Detection Pipeline  v2.0
+2026-07-19 13:11:32,518 [INFO] ============================================================
+2026-07-19 13:11:32,518 [INFO] Cities to process: ['borama']
+2026-07-19 13:11:32,518 [INFO] Zoom level: 15
+2026-07-19 13:11:35,352 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-19 13:11:35,412 [INFO] ------------------------------------------------------------
+2026-07-19 13:11:35,412 [INFO] [City] Processing: BORAMA
+2026-07-19 13:11:35,413 [INFO]    Bounding box: lng(43.02-43.34) lat(9.78-10.1)
+2026-07-19 13:11:35,414 [INFO] Zoom 15: 930 tiles to process
+2026-07-19 13:15:56,882 [INFO]   Raw detections: 4899
+2026-07-19 13:16:14,976 [INFO]   After dedup:    4899 buildings
+2026-07-19 13:16:17,057 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-19 13:16:17,060 [INFO]   Starting number: 244253
+2026-07-19 13:16:18,446 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:19,406 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:20,315 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:21,187 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:22,073 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:22,939 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:23,780 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:24,619 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:25,468 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:25,994 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22number%22%2C%22longitude%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:16:25,997 [INFO]   [OK] Inserted 4899 buildings (#244253-#249151)
+2026-07-19 13:16:26,000 [INFO] ============================================================
+2026-07-19 13:16:26,000 [INFO] [DONE] All done! Total buildings inserted: 4899
+2026-07-19 13:16:26,000 [INFO] ============================================================
+2026-07-19 13:16:35,873 [INFO] ============================================================
+2026-07-19 13:16:35,873 [INFO] Somaliland Building Detection Pipeline  v2.0
+2026-07-19 13:16:35,873 [INFO] ============================================================
+2026-07-19 13:16:35,874 [INFO] Cities to process: ['erigavo']
+2026-07-19 13:16:35,874 [INFO] Zoom level: 15
+2026-07-19 13:16:39,037 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-19 13:16:39,125 [INFO] ------------------------------------------------------------
+2026-07-19 13:16:39,125 [INFO] [City] Processing: ERIGAVO
+2026-07-19 13:16:39,125 [INFO]    Bounding box: lng(47.21-47.53) lat(10.46-10.78)
+2026-07-19 13:16:39,126 [INFO] Zoom 15: 930 tiles to process
+2026-07-19 13:21:36,710 [INFO]   Raw detections: 6751
+2026-07-19 13:22:10,761 [INFO]   After dedup:    6750 buildings
+2026-07-19 13:22:12,838 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-19 13:22:12,842 [INFO]   Starting number: 249152
+2026-07-19 13:22:14,007 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:14,889 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:15,734 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:16,583 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:17,419 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:18,258 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:19,115 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:19,951 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:20,793 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:21,647 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:22,466 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:23,314 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:24,159 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:24,634 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22city%22%2C%22latitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:22:24,640 [INFO]   [OK] Inserted 6750 buildings (#249152-#255901)
+2026-07-19 13:22:24,642 [INFO] ============================================================
+2026-07-19 13:22:24,642 [INFO] [DONE] All done! Total buildings inserted: 6750
+2026-07-19 13:22:24,642 [INFO] ============================================================
+2026-07-19 13:22:34,482 [INFO] ============================================================
+2026-07-19 13:22:34,482 [INFO] Somaliland Building Detection Pipeline  v2.0
+2026-07-19 13:22:34,482 [INFO] ============================================================
+2026-07-19 13:22:34,482 [INFO] Cities to process: ['las_anod']
+2026-07-19 13:22:34,482 [INFO] Zoom level: 15
+2026-07-19 13:22:37,258 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-19 13:22:37,319 [INFO] ------------------------------------------------------------
+2026-07-19 13:22:37,319 [INFO] [City] Processing: LAS_ANOD
+2026-07-19 13:22:37,320 [INFO]    Bounding box: lng(47.32-47.4) lat(8.43-8.52)
+2026-07-19 13:22:37,320 [INFO] Zoom 15: 72 tiles to process
+2026-07-19 13:22:54,337 [INFO]   Raw detections: 626
+2026-07-19 13:22:54,639 [INFO]   After dedup:    626 buildings
+2026-07-19 13:22:56,002 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-19 13:22:56,007 [INFO]   Starting number: 255902
+2026-07-19 13:22:56,992 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22latitude%22%2C%22number%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:22:57,431 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22longitude%22%2C%22latitude%22%2C%22number%22%2C%22city%22 "HTTP/2 201 Created"
+2026-07-19 13:22:57,435 [INFO]   [OK] Inserted 626 buildings (#255902-#256527)
+2026-07-19 13:22:57,439 [INFO] ============================================================
+2026-07-19 13:22:57,439 [INFO] [DONE] All done! Total buildings inserted: 626
+2026-07-19 13:22:57,439 [INFO] ============================================================
+2026-07-19 13:23:07,670 [INFO] ============================================================
+2026-07-19 13:23:07,671 [INFO] Somaliland Building Detection Pipeline  v2.0
+2026-07-19 13:23:07,671 [INFO] ============================================================
+2026-07-19 13:23:07,671 [INFO] Cities to process: ['gabiley']
+2026-07-19 13:23:07,671 [INFO] Zoom level: 15
+2026-07-19 13:23:10,408 [INFO] Loading YOLOv8 model: yolov8n-seg.pt
+2026-07-19 13:23:10,470 [INFO] ------------------------------------------------------------
+2026-07-19 13:23:10,470 [INFO] [City] Processing: GABILEY
+2026-07-19 13:23:10,470 [INFO]    Bounding box: lng(43.5-43.75) lat(9.6-9.82)
+2026-07-19 13:23:10,471 [INFO] Zoom 15: 528 tiles to process
+2026-07-19 13:25:35,489 [INFO]   Raw detections: 1576
+2026-07-19 13:25:37,400 [INFO]   After dedup:    1576 buildings
+2026-07-19 13:25:39,329 [INFO] HTTP Request: GET https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?select=number&order=number.desc&limit=1 "HTTP/2 200 OK"
+2026-07-19 13:25:39,338 [INFO]   Starting number: 256528
+2026-07-19 13:25:40,762 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:25:41,709 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:25:42,671 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:25:43,126 [INFO] HTTP Request: POST https://doqgakklrbcuzqnpbjrx.supabase.co/rest/v1/buildings?on_conflict=number&columns=%22latitude%22%2C%22city%22%2C%22longitude%22%2C%22number%22 "HTTP/2 201 Created"
+2026-07-19 13:25:43,128 [INFO]   [OK] Inserted 1576 buildings (#256528-#258103)
+2026-07-19 13:25:43,132 [INFO] ============================================================
+2026-07-19 13:25:43,132 [INFO] [DONE] All done! Total buildings inserted: 1576
+2026-07-19 13:25:43,132 [INFO] ============================================================
