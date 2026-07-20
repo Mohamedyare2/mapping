@@ -74,7 +74,7 @@ export default function MapView({
                 zoom: BERBERA_ZOOM,
                 zoomControl: false,
                 attributionControl: false,
-                maxBounds: SomalilandBounds,
+                maxBounds: SomalilandBounds as any,
                 maxBoundsViscosity: 1.0,
                 minZoom: 6,
             });
@@ -271,7 +271,7 @@ export default function MapView({
             if (!navigationResult?.geometry) return;
 
             const coords = navigationResult.geometry.coordinates.map(
-                ([lng, lat]: [number, number]) => [lat, lng] as [number, number]
+                (coord: any) => [coord[1], coord[0]] as [number, number]
             );
 
             routeLineRef.current = L.polyline(coords, {
