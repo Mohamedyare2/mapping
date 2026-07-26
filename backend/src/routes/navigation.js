@@ -36,20 +36,26 @@ router.get('/', async (req, res, next) => {
         const leg = route.legs[0];
 
         // Build turn-by-turn steps
-        const steps = leg.steps.map((step) => ({
-            instruction: step.maneuver.type === 'arrive'
-                ? `Arrive at Building`
-                : buildInstruction(step),
-            distance: formatDistance(step.distance),
-            duration: formatDuration(step.duration),
-            direction: step.maneuver.modifier || step.maneuver.type,
-        }));
+        const steps = leg.steps.map((step) => {
+            const stepWalkingDuration = step.distance / 1.4;
+            return {
+                instruction: step.maneuver.type === 'arrive'
+                    ? `Arrive at Building`
+                    : buildInstruction(step),
+                distance: formatDistance(step.distance),
+                duration: formatDuration(mode === 'walking' ? stepWalkingDuration : step.duration),
+                direction: step.maneuver.modifier || step.maneuver.type,
+            };
+        });
+
+        const totalWalkingDuration = route.distance / 1.4;
+        const totalDrivingDuration = route.duration; // OSRM returns driving duration
 
         res.json({
             distance: formatDistance(route.distance),
-            duration: formatDuration(route.duration),
-            drivingTime: mode === 'driving' ? formatDuration(route.duration) : formatDuration(route.duration / 4.5),
-            walkingTime: mode === 'walking' ? formatDuration(route.duration) : formatDuration(route.duration * 4.5),
+            duration: formatDuration(mode === 'walking' ? totalWalkingDuration : totalDrivingDuration),
+            drivingTime: formatDuration(totalDrivingDuration),
+            walkingTime: formatDuration(totalWalkingDuration),
             mode,
             geometry: route.geometry,
             steps,

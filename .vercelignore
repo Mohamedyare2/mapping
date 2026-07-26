@@ -1,0 +1,6 @@
+backend/somaliland_buildings.geojson
+backend/*.json
+backend/chunks/
+ai-pipeline/
+node_modules/
+database/

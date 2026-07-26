@@ -15,6 +15,7 @@ async function request<T>(
     options: RequestInit = {}
 ): Promise<T> {
     const res = await fetch(`${API_URL}${path}`, {
+        cache: 'no-store', // Prevent Next.js from caching the API responses (which causes 0 buildings)
         headers: {
             'Content-Type': 'application/json',
             ...getAuthHeader(),

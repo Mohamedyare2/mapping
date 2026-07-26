@@ -1,0 +1,7 @@
+node_modules/
+*.geojson
+*.geojson.state
+logs/
+chunks/
+.env*
+scripts/
